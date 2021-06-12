@@ -17,6 +17,16 @@ graph= [
 [1,7]
 ]
 
+def dfs_stack(graph, start_node):
+  visit = list()
+  stack = list()
+  stack.append(start_node)
+
+  while stack:
+      node.append(node)
+      stack.extend(graph[node])
+  return visit
+
 visited =[False] *9
 
 dfs(graph,1,visited)
